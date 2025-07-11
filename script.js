@@ -36,6 +36,5 @@ function toggleFormat() {
   updateClock();
 }
 
-// Initial and interval update
 updateClock();
 setInterval(updateClock, 1000);
